@@ -24,9 +24,9 @@
 
 <bean id="dataSource" class="org.springframework.jdbc.datasource.DriverManagerDataSource">
 	<property name="driverClassName" value="com.mysql.jdbc.Driver" />
-	<property name="url" value="jdbc:mysql://127.13.65.2:3306/jbosseap" />
-	<property name="username" value="adminpFzdEPi" />
-	<property name="password" value="fmXEEdWKFEWm" />
+	<property name="url" value="jdbc:mysql://jws-app-mysql.embeddedtomcat.svc" />
+	<property name="username" value="userdge" />
+	<property name="password" value="VYhwkqvj" />
 </bean>
 
 <bean id="sqlSessionFactory" class="org.mybatis.spring.SqlSessionFactoryBean">
