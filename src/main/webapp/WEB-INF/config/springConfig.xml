@@ -24,7 +24,7 @@
 
 <bean id="dataSource" class="org.springframework.jdbc.datasource.DriverManagerDataSource">
 	<property name="driverClassName" value="com.mysql.jdbc.Driver" />
-	<property name="url" value="jdbc:mysql://jws-app-mysql.embeddedtomcat.svc" />
+	<property name="url" value="jdbc:mysql://jws-app-mysql.embeddedtomcat.svc/root" />
 	<property name="username" value="userdge" />
 	<property name="password" value="VYhwkqvj" />
 </bean>
