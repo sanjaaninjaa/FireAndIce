@@ -1,0 +1,3 @@
+FROM scratch
+MAINTAINER Sanjay Gaikwad
+EXPOSE 8080 8081
